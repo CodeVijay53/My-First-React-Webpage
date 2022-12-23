@@ -1,0 +1,28 @@
+.contact {
+  max-width: 990px;
+  margin: 2em auto;
+}
+input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 1.5em;
+  border: 0.3em double var(--mainColor);
+  outline: none;
+  font-size: 1.1rem;
+}
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    max-width: 80%;
+    margin: 1em auto;
+  }
+  input {
+    width: 100%;
+    padding: 0.3em;
+    margin-bottom: 1.5em;
+    border: 0.3em solid var(--mainColor);
+  }
+}
